@@ -21,6 +21,19 @@
 4. img.dpeth( )와 img.channels( )를 조사하시오. 
 5. img영상내에서 250 값은 0으로 바꾸고, 100의 값은 255로 바꾸고, 120의 값은 200으로, 150의 값은 100으로 바꾸시오. [이때, for문을 사용하고, for 문의 상한으로는 img.rows와 img.cols를 사용하고, 변수로는 Point pt;선언하여 pt.x, pt.y를 사용하시오]
 
+### 결과
+
+- **input**
+
+<img src="./task-01/assets/input.jpg" width="70%">
+<img src="./task-01/assets/input_data.jpg" width="70%">
+
+
+- **output**
+
+<img src="./task-01/assets/output.jpg" width="70%">
+<img src="./task-01/assets/output_data.jpg" width="70%">
+
 ## task 02. 영상 색상 변경
 1. Mat image = imread( ) 함수를 이용하여 영상을 읽어 오시오.
 

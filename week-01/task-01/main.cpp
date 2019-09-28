@@ -17,7 +17,7 @@ int main()
 
 	Mat example(10, 12, CV_8U, data);
 	Point pt;
-	cout << "data = " << example << endl;
+	cout << "input = " << example << endl;
     imshow("input", example);
 
 	for (pt.x = 0; pt.x < example.rows; pt.x++)
