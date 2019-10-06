@@ -8,6 +8,6 @@
 으로 만들어 화면에 띄우시오. 이때, 위1과 비교하여 제대로 되었는지 확인하시오.
 
 ### 결과
-<img src="./task-01/assets/output1.png" width="100%">
+<img src="./task-01/assets/output1.png" width="80%">
 
 
