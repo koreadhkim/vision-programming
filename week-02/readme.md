@@ -8,6 +8,9 @@
 으로 만들어 화면에 띄우시오. 이때, 위1과 비교하여 제대로 되었는지 확인하시오.
 
 ### 결과
-<img src="./task-01/assets/output1.png" width="80%">
+<img src="./task-01/assets/output_02.jpg" width="70%"> <br>
+먼저, threshold_value를 찾기위해 trackbar 를 이용하여 값을 찾는다. 찾은 값들을 이용하여 main_02.cpp를 실행 시킨다.<br>
+<img src="./task-01/assets/output_03.jpg" width="50%"> <br>
+
 
 
