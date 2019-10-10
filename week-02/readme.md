@@ -9,7 +9,7 @@
 
 ### 결과
 <img src="./task-01/assets/output_02.jpg" width="70%"> <br>
-먼저, threshold_value를 찾기위해 trackbar 를 이용하여 값을 찾는다. 찾은 값들을 이용하여 main_02.cpp를 실행 시킨다.<br>
+먼저, threshold_value를 찾기위해 trackbar 를 이용하여 값을 찾는다. 찾은 값들을 이용하여 task-01/main_02.cpp를 실행 시킨다.<br>
 <img src="./task-01/assets/output_03.jpg" width="50%"> <br>
 
 
