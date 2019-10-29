@@ -48,8 +48,6 @@ void draw_histo(Mat hist, Mat &hist_img, Size size = Size(256, 200))
 
             if (i % 15 == 0)
             {
-                // cout << i <<endl;
-                // cout << inclination_before_value[i] <<endl;
                 inclination[count] = ((pt_04.y - inclination_before_value[i - 15]) / (pt_03.x - pt_01.x - 15));
                 inclination_pt_x[count] = pt_01.x;
             }
@@ -66,7 +64,6 @@ void draw_histo(Mat hist, Mat &hist_img, Size size = Size(256, 200))
         {
             inclination_value = inclination_pt_x[i];
             Th_01 = inclination_pt_x[i];
-
             cout << inclination_pt_x[i] << endl;
         }
     }
