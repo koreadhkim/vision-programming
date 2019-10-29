@@ -43,6 +43,8 @@ void draw_histo(Mat hist, Mat &hist_img, Size size = Size(256, 200))
 
         if (pt_02.y > 0)
         {
+                        cout<< count <<endl;
+
             if (i % 7 == 0)
             {
                 inclination[count] = ((pt_04.y - pt_02.y) / (pt_03.x - pt_01.x));
