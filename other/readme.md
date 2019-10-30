@@ -12,8 +12,8 @@
 |                            | <img  src="./assets/output_11.png" width = "65%">|                            | <img  src="./assets/output_12.png" width = "100%">|
 | main_12.cpp                | output_12.png| main_13.cpp                | output_13.png|
 |                            | <img  src="./assets/output_12.png" width = "65%">|                            | <img  src="./assets/output_13.png" width = "100%">|
-| main_14.cpp                | output_14.png| main_13.cpp                | output_13.png|
-|                            | <img  src="./assets/output_14.png" width = "65%">|                            | <img  src="./assets/output_13.png" width = "100%">|
+| main_14.cpp                | output_14.png|                 | |
+|                            | <img  src="./assets/output_14.png" width = "65%">|                            | |
 
 
 
