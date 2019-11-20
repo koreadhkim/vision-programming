@@ -34,3 +34,4 @@
 # custom ignore
 .DS_Store
 .vscode/
+*.txt
