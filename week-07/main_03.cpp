@@ -21,7 +21,6 @@ int main()
 
     Mat perspect_map = getPerspectiveTransform(pts_02,pts_01);
     warpPerspective(image,dst_img,perspect_map,image.size(),INTER_CUBIC);
-    
 
     imshow("src_img", image);
     imshow("dst_img", dst_img);
