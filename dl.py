@@ -9,7 +9,7 @@ class enhance_net_nopool(nn.Module):
 	def __init__(self):
 		super(enhance_net_nopool, self).__init__()
 		self.relu = nn.ReLU(inplace=True)
-		number_f = 32
+		number_f = 32*2
 		self.e_conv1 = nn.Conv2d(3,number_f,3,1,1,bias=True)
 		self.e_conv2 = nn.Conv2d(number_f,number_f,3,1,1,bias=True)
 		self.e_conv3 = nn.Conv2d(number_f,number_f,3,1,1,bias=True)
