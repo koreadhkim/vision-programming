@@ -29,7 +29,7 @@ def lowlight(image_path):
 	data_lowlight = torch.from_numpy(data_lowlight).float()
 	data_lowlight = data_lowlight.permute(2,0,1)
 	data_lowlight = data_lowlight.cuda().unsqueeze(0)
-  data_lowlight = torch.nn.functional.interpolate(data_lowlight,(1080,1920),mode='bilinear')
+	data_lowlight = torch.nn.functional.interpolate(data_lowlight,(1080,1920),mode='bilinear')
 	DCE_net = model.enhance_net_nopool().cuda()
 	DCE_net.load_state_dict(torch.load('snapshots/Epoch99.pth'))
 	start = time.time()
